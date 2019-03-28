@@ -1,6 +1,6 @@
 # A method to reverse the words in a sentence, in place.
 # Time complexity: O(n) - This method calls my reverse_words method, which was O(n). It then runs an in-place reversal of the string, which is also O(n) where n is the length of the string.
-# Space complexity: O(1)
+# Space complexity: O(1) - The array is manipulated in place; no additional space is required.
 def reverse_sentence(my_sentence)
   return nil if my_sentence == nil
   reverse_words(my_sentence)
